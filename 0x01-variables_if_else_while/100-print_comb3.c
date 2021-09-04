@@ -7,12 +7,12 @@ int main(void)
 {
 	int i, f, l;
 
-	int i = 0;
+	 i = 0;
 
 	while (i <= 99)
 	{
-		f = (c / 10 + '0');
-		l = (c % 10 + '0');
+		f = (i / 10 + '0');
+		l = (i % 10 + '0');
 
 		if (f < l)
 		{
